@@ -1,0 +1,28 @@
+12.15 12:55 pm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Special Gift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="password-screen">
+        <h1>Welcome to My Special Gift</h1>
+        <p>Please enter the password to continue:</p>
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="checkPassword()">Enter</button>
+        <p id="error-message" style="color: red; display: none;">Incorrect password. Try again.</p>
+    </div>
+
+    <div id="content" style="display: none;">
+        <h1>Hello, Best Friend!</h1>
+        <p>This is a special website I made just for you. I hope you love it!</p>
+        <img src="your-image.jpg" alt="Aesthetic Image" class="aesthetic-img">
+        <p>Add your personal text here!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

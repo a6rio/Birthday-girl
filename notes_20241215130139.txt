@@ -1,0 +1,23 @@
+12.15 12:56 pm
+body {
+    background-color: #E6E6FA; /* Lavender purple */
+    color: black;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.aesthetic-img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+#password-screen, #content {
+    padding: 20px;
+}

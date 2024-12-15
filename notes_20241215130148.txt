@@ -1,0 +1,12 @@
+12.15 12:57 pm
+function checkPassword() {
+ const passwordInput = document.getElementById('password').value;
+    const errorMessage = document.getElementById('error-message');
+
+    if (passwordInput === 'nuisance') {
+        document.getElementById('password-screen').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    } else {
+        errorMessage.style.display = 'block';
+    }
+}
